@@ -104,3 +104,35 @@ header {
     padding-bottom: 60px;
     text-align: center;
 }
+.about {
+    text-align: center;
+    padding: 80px;
+    margin-top: 80px;
+}
+.about h3  {
+    font-size: 2rem;
+    padding-bottom: 20px ;
+}
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+.team-members {
+    display: flex;
+     flex-wrap: wrap;
+}
+.team-member  img{
+     width: 290px;
+     height: 300px;
+     margin-left: 30px; 
+     object-fit: cover;  
+}
+.team-member h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.team-member p {
+    padding: 0px;
+}
