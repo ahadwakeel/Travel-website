@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     font-family: "Roboto", serif
@@ -98,12 +99,14 @@ header {
 .place-item h3 {
     margin: 20px 0;
 }
+/* featured & Activity */
 .Feature-heading h2 {
     font-size: 2rem;
     padding-top: 150px;
     padding-bottom: 60px;
     text-align: center;
 }
+/* About Us section */
 .about {
     text-align: center;
     padding: 80px;
@@ -135,4 +138,75 @@ header {
 }
 .team-member p {
     padding: 0px;
+}
+/* contact us */
+.contact {
+    padding: 80px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.contact h3 {
+    font-size: 2rem;
+}
+.contact-info p {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-info ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-info li {
+    margin: 0 20px;
+    font-size: 1.2rem;
+}
+.contact-info li a {
+    text-decoration: none;
+}
+.contact-info i {
+    margin-right: 10px;
+}
+.form {
+    width: 100%;
+}
+input,textarea {
+    width: 70%;
+    padding: 15px ;
+    margin: 20px 0;
+    border: none;
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.1);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+textarea {
+    height: 200px;
+}
+.form button {
+    color: #fff;
+    background-color: #ff7f50;
+    padding: 12px 20px;
+    border-radius: 50px;
+    transition: ease-out 0.3s;
+    font-size: 1.2rem;
+    border: none;
+}
+.form button:hover {
+    background-color: gray;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
 }
